@@ -1,0 +1,338 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+  color: white;
+}
+
+header {
+  height: 30rem;
+  line-height: 1.4;
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+
+}
+
+.container-2{
+  margin-right: -2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top:10rem;
+
+
+
+}
+
+.container-2 h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color:black;
+  float: right;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+}
+
+nav {
+  background-color: cadetblue;
+  padding: 1rem 0rem 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.menu-mobile{
+  display:none;
+}
+
+/*header .container-2{
+  background-color: white;
+}*/
+
+.logo, .footer-logo {
+  display:flex;
+  height: 1.5rem;
+  align-items: center;
+}
+
+.logo img, .footer-logo img {
+  max-width: auto;
+  max-height: 100%;
+  margin-right: 1rem;
+  overflow: hidden;
+  margin-left: 2rem;
+}
+
+/*.footer-logo img{
+  margin-left: 4rem;
+}*/
+
+.footer-logo span {
+  color: black;
+  line-height: 1.4;
+}
+
+.footer-logo{
+  margin-top: 4rem;
+  padding:4rem 0rem 4rem 0rem;
+}
+
+.logo span {
+  font-size: 1rem;
+  margin-top: 0;
+
+}
+
+li {
+  display:inline-block;
+  }
+
+li:first-child, li:nth-child(2) {
+  margin-right: 1rem;
+}
+
+li:nth-child(2), li:nth-child(2), li:nth-child(3) {
+    margin-left: 1rem;
+}
+
+li:nth-child(3) {
+  margin-right: 2rem;
+}
+
+.service, .icon-description, .work {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-description{
+
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  height:8rem;
+  width:5rem;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.4;
+}
+
+
+.icon-description span {
+  color: black;
+  display: block;
+  line-height: 1.4;
+
+}
+
+.icon-description.paper img {
+  max-width: 3.5rem;
+  height:auto;
+}
+
+.icon-description.ruler img, .icon-description.truck img  {
+  max-width: 5rem;
+  height:auto;
+}
+
+.box {
+
+  width:35%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5%;
+
+}
+
+.box p{
+  color:black;
+  text-align: left;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  line-height: 1.4;
+}
+
+.box.appointments span, .box.philosophy span {
+  background-color: cadetblue;
+  font-size: 1rem;
+  font-weight: bold;
+  width:10rem;
+  text-align: left;
+  /*padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-*/
+  padding: 0.5rem 1.25rem;
+  display: block;
+
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 1024px){
+  nav.container  {
+    max-width: 100%;
+    /*margin: auto;*/
+  }
+  .container-2 h1 {
+    font-size: 1.33rem;
+    font-weight: bold;
+    color:black;
+    float: right;
+    background-color: white;
+    padding: 0.75rem 4rem;
+    line-height: 1.2;
+  }
+
+  .container-2{
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:5rem;
+
+
+
+  }
+
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px){
+
+
+.menu{
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 560px)  {
+  .logo span {
+    display: none;
+
+  }
+
+  header {
+    height: 17rem;
+    padding-top: 0;
+    background-position: 20%;
+  }
+
+  .container-2 h1 {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    line-height: 1.2;
+    width: 100%;
+  }
+.container-2{
+  margin-right: 0;
+}
+
+nav.container {
+  margin-bottom: 9rem;
+}
+
+.service, .icon-description, .work {
+
+flex-direction: column;
+align-items: center;
+justify-content: space-around;*/
+}
+
+/*.icon-description{
+  justify-content: space-between;
+}*/
+
+/*.icon-description.paper{
+  margin-top: 3.77rem;
+  margin-bottom: 0.77rem;
+}
+
+.icon-description.truck{
+  margin-bottom: 3.77rem;
+  margin-top:0.77rem;
+}*/
+
+.icon-description span, .box p{
+  font-size: 0.77rem;
+  font-weight: normal;
+  /*text-align: align-left;*/
+}
+
+.icon-description img, .icon-description div{
+margin-bottom:1rem;
+}
+
+
+
+.box p{
+  padding: 1rem;
+  width:100%;
+
+
+}
+.box, .work.container{
+  width: 100%;
+  max-width: none;
+}
+
+.service{
+  margin-top:3.77rem;
+  margin-bottom:3.77rem;
+}
+/*.box.philosophy, .box.appointments {
+  width:100%;
+  margin-right:0;
+  margin-bottom: 4rem;
+}*/
+
+.box.appointments span, .box.philosophy span {
+
+  width:100%;
+  text-align: center;
+  /*padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-*/
+}
+  footer span{
+    display: none;
+
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .icon-description{
+
+
+
+    margin: 0rem;
+    /*height:8rem;
+    width:5rem;
+    */
+
+  }
+
+  .box.philosophy {
+    margin-bottom: 4rem;
+  }
+}
